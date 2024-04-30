@@ -1,0 +1,35 @@
+{
+    "dataExploration": false,
+    "datasource": {
+        "fullname": "live:test",
+        "id": "live:test",
+        "live": true,
+        "title": "test"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "663103508356140036b47fab",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "title": "Vlad test",
+    "widgets": [
+        "./widgets/6631038e8356140036b47fad/widget.json"
+    ]
+}

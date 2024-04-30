@@ -1,0 +1,102 @@
+{
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "663103508356140036b47fab",
+    "datasource": {
+        "fullname": "live:test",
+        "id": "live:test",
+        "live": true,
+        "title": "test"
+    },
+    "desc": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[APPLICABLE_ROLES.ROLE_NAME]",
+                            "index": 0
+                        },
+                        "instanceid": "7415D-49C6-F6",
+                        "jaql": {
+                            "column": "ROLE_NAME",
+                            "datatype": "text",
+                            "dim": "[APPLICABLE_ROLES.ROLE_NAME]",
+                            "merged": true,
+                            "table": "APPLICABLE_ROLES",
+                            "title": "ROLE_NAME"
+                        },
+                        "panel": "rows"
+                    },
+                    {
+                        "field": {
+                            "id": "[APPLICABLE_ROLES.IS_GRANTABLE]",
+                            "index": 1
+                        },
+                        "instanceid": "FF9D0-6EF5-28",
+                        "jaql": {
+                            "column": "IS_GRANTABLE",
+                            "datatype": "text",
+                            "dim": "[APPLICABLE_ROLES.IS_GRANTABLE]",
+                            "merged": true,
+                            "table": "APPLICABLE_ROLES",
+                            "title": "IS_GRANTABLE"
+                        },
+                        "panel": "rows"
+                    }
+                ],
+                "name": "rows"
+            },
+            {
+                "items": [
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "columns"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "6631038e8356140036b47fad",
+    "options": {
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "selector": false,
+        "triggersDomready": true
+    },
+    "style": {
+        "automaticHeight": true,
+        "colors": {
+            "columns": false,
+            "headers": false,
+            "members": false,
+            "rows": true,
+            "totals": false
+        },
+        "pageSize": 25,
+        "scroll": false
+    },
+    "subtype": "pivot2",
+    "title": "",
+    "type": "pivot2"
+}
