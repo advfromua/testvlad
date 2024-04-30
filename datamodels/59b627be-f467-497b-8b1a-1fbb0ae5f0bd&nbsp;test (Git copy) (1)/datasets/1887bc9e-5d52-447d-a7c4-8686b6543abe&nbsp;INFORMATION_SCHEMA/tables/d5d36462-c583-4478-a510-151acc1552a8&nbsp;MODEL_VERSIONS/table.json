@@ -1,0 +1,211 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "DATABASE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "DATABASE_NAME",
+            "oid": "29819f02-76d5-4593-b76e-e48eb4fe5514",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "SCHEMA_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SCHEMA_NAME",
+            "oid": "fa10fbe0-9ef2-4548-8b33-933d9e40a296",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "MODEL_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "MODEL_NAME",
+            "oid": "2a584bd7-f8ad-4dbe-983f-48c9696cc3a1",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "MODEL_VERSION_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "MODEL_VERSION_NAME",
+            "oid": "5e9d1142-9db7-4900-b45b-e5c730e18795",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "VERSION_ALIASES",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "VERSION_ALIASES",
+            "oid": "d3affc2c-4abe-4fb8-babd-a930375f7b3f",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "95044838-b382-4a1d-a617-bc21768d6c70",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OWNER",
+            "oid": "74393cbc-b5b0-4dc0-a440-7510d6011219",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "451e320d-29dd-42c8-824d-6c9803e0b7ce",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "LAST_ALTERED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "LAST_ALTERED",
+            "oid": "690af88a-35be-493e-8b3c-a485a6f7cb58",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        },
+        {
+            "hidden": false,
+            "id": "FUNCTIONS",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "FUNCTIONS",
+            "oid": "8ffe9acf-d55f-468a-82d2-341dc21c5577",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "MODEL_TYPE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "MODEL_TYPE",
+            "oid": "d9421baa-2f69-45ad-a98f-c2766a180d99",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "PYTHON_VERSION",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "PYTHON_VERSION",
+            "oid": "bf87b24b-06ea-456b-a2eb-652dcea8df52",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "LANGUAGE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LANGUAGE",
+            "oid": "e4918843-385f-4aac-878d-22bfba8b7626",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "DEPENDENCIES",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "DEPENDENCIES",
+            "oid": "e63740d6-7128-4c77-8d96-80647b689809",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "METADATA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "METADATA",
+            "oid": "f9754457-a800-4a8d-ba87-6c85d12f48a7",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "USERDATA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "USERDATA",
+            "oid": "b419462b-59a2-4aff-8d20-d6565fd79517",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "1887bc9e-5d52-447d-a7c4-8686b6543abe",
+    "hidden": false,
+    "id": "MODEL_VERSIONS",
+    "isMaterialized": false,
+    "name": "MODEL_VERSIONS",
+    "oid": "d5d36462-c583-4478-a510-151acc1552a8",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

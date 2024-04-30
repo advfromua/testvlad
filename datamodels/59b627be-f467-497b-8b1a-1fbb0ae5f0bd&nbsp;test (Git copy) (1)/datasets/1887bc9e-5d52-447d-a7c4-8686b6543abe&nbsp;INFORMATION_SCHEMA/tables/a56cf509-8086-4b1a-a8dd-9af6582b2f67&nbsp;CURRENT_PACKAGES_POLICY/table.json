@@ -1,0 +1,91 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "NAME",
+            "oid": "c2d2f01a-aa39-4c1f-af3b-9a905488f90f",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "LANGUAGE",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "LANGUAGE",
+            "oid": "d49a351e-cb98-40df-8869-81e3c5242098",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ALLOWLIST",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ALLOWLIST",
+            "oid": "cb24d07a-bbf4-42c1-a464-9eced25bf34a",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "BLOCKLIST",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "BLOCKLIST",
+            "oid": "41d85633-f23e-44d5-a535-0f635d2c810c",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "ADDITIONAL_CREATION_BLOCKLIST",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ADDITIONAL_CREATION_BLOCKLIST",
+            "oid": "fb3102a5-6139-4306-81a1-6c61129909cb",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "COMMENT",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "COMMENT",
+            "oid": "e8a4f956-f765-44e2-8aef-eb6e1350d3b5",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "1887bc9e-5d52-447d-a7c4-8686b6543abe",
+    "hidden": false,
+    "id": "CURRENT_PACKAGES_POLICY",
+    "isMaterialized": false,
+    "name": "CURRENT_PACKAGES_POLICY",
+    "oid": "a56cf509-8086-4b1a-a8dd-9af6582b2f67",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

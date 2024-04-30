@@ -1,0 +1,151 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "TABLE_CATALOG",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_CATALOG",
+            "oid": "121b88c0-0433-47b8-afd7-1868f176de25",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_SCHEMA",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_SCHEMA",
+            "oid": "86913947-5fa4-4a0f-9701-8602e852faa7",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "TABLE_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TABLE_NAME",
+            "oid": "0ea3c3e5-8ea2-42f6-b32a-6ef121d36104",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "INDEX_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "INDEX_NAME",
+            "oid": "5d390c4f-5ca3-41b3-83c6-d7c25e71ec58",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "NAME",
+            "oid": "2534df35-ca69-4aea-826f-5f8532164e44",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "KEY_SEQUENCE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "KEY_SEQUENCE",
+            "oid": "bc5f025e-97cf-4079-b2e5-c452dbd1214d",
+            "precision": 9,
+            "scale": 0,
+            "size": 9,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "INDEX_OWNER",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "INDEX_OWNER",
+            "oid": "ea7ee4b3-324c-4cdc-b9a6-f92f3e6a66c5",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "IS_UNIQUE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "IS_UNIQUE",
+            "oid": "37f6fc71-5026-4ed3-9865-52356930a33a",
+            "precision": 3,
+            "scale": 0,
+            "size": 3,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CONSTRAINT_NAME",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CONSTRAINT_NAME",
+            "oid": "ac75295e-240c-4f96-867a-d9d0836737a4",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "STATUS",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "STATUS",
+            "oid": "ceea8a57-b7c2-4dd0-8d3f-8eb5a9aba036",
+            "precision": 16777216,
+            "scale": 0,
+            "size": 16777216,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "CREATED",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CREATED",
+            "oid": "5ebe44f1-4f0b-4474-b9a8-4df2f90d0e97",
+            "precision": 0,
+            "scale": 9,
+            "size": 50,
+            "type": 43
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "1887bc9e-5d52-447d-a7c4-8686b6543abe",
+    "hidden": false,
+    "id": "INDEX_COLUMNS",
+    "isMaterialized": false,
+    "name": "INDEX_COLUMNS",
+    "oid": "5a2674ab-590d-4685-bb41-c412c9b3060d",
+    "schemaName": "INFORMATION_SCHEMA",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

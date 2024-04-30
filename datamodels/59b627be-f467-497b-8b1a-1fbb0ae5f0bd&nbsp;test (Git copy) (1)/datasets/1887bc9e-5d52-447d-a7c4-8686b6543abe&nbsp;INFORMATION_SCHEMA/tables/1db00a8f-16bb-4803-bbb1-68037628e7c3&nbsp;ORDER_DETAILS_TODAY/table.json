@@ -1,0 +1,79 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "UNITPRICE",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "UNITPRICE",
+            "oid": "4fba2116-32ee-4023-84cc-6720ee593a86",
+            "precision": 0,
+            "scale": 0,
+            "size": 1,
+            "type": 40
+        },
+        {
+            "hidden": false,
+            "id": "QUANTITY",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "QUANTITY",
+            "oid": "f596ccc0-310f-4069-baf2-2b53d61eb617",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "DISCOUNT",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "DISCOUNT",
+            "oid": "6ad3f864-589c-46e5-b75b-9ad5fb63561a",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "ODORDERID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ODORDERID",
+            "oid": "26d01aa3-f1e0-4903-9f35-87ba1c0a3178",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        },
+        {
+            "hidden": false,
+            "id": "ODPRODUCTID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ODPRODUCTID",
+            "oid": "884b61c7-c2ec-4284-af06-114d12bb0627",
+            "precision": 38,
+            "scale": 0,
+            "size": 38,
+            "type": 0
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "1887bc9e-5d52-447d-a7c4-8686b6543abe",
+    "hidden": false,
+    "id": "ORDER_DETAILS_TODAY",
+    "isMaterialized": false,
+    "name": "ORDER_DETAILS_TODAY",
+    "oid": "1db00a8f-16bb-4803-bbb1-68037628e7c3",
+    "schemaName": "EC_SAMPLE_ECOMMERCE",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

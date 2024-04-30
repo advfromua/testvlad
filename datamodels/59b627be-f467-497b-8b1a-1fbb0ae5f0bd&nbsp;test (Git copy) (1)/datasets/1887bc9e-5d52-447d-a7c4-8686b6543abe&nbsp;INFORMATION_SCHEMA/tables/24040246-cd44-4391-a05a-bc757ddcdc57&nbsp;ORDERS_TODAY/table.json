@@ -1,0 +1,31 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "ORDERID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ORDERID",
+            "oid": "a51571b6-0e63-4fce-99d3-57c18c932482",
+            "precision": 19,
+            "scale": 4,
+            "size": 20,
+            "type": 5
+        }
+    ],
+    "configOptions": {
+    },
+    "dataset": "1887bc9e-5d52-447d-a7c4-8686b6543abe",
+    "hidden": false,
+    "id": "ORDERS_TODAY",
+    "isMaterialized": false,
+    "name": "ORDERS_TODAY",
+    "oid": "24040246-cd44-4391-a05a-bc757ddcdc57",
+    "schemaName": "EC_SAMPLE_ECOMMERCE",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

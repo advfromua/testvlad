@@ -1,9 +1,0 @@
-{
-    "createdByUser": true,
-    "oid": "24b08171-49b3-4764-a9fa-4e589dd9ab68",
-    "provider": "SnowflakeJDBC",
-    "schema": "EC_SAMPLE_ECOMMERCE",
-    "uiParams": {
-        "passwordAuth": true
-    }
-}

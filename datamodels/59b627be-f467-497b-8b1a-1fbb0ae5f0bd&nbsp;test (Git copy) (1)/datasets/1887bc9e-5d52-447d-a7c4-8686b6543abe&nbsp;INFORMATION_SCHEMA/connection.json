@@ -1,0 +1,9 @@
+{
+    "createdByUser": true,
+    "oid": "1ea826f4-3198-44c4-b0f3-e01a042c0037",
+    "provider": "SnowflakeJDBC",
+    "schema": "INFORMATION_SCHEMA",
+    "uiParams": {
+        "passwordAuth": true
+    }
+}
